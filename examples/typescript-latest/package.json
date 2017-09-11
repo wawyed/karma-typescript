@@ -17,6 +17,12 @@
     "test": "karma start"
   },
   "dependencies": {
+    "@angular/common": "^4.1.0",
+    "@angular/compiler": "^4.1.0",
+    "@angular/core": "^4.1.0",
+    "@angular/platform-browser": "^4.1.0",
+    "@angular/platform-browser-dynamic": "^4.1.0",
+    "@mhrwebux/common": "file:mhrwebux-common-2.2.1.tgz",
     "@types/jasmine": "^2.5.35",
     "es6-object-assign": "^1.1.0",
     "jasmine-core": "^2.4.1",
@@ -26,7 +32,10 @@
     "karma-jasmine": "^1.0.2",
     "karma-typescript": "../../",
     "karma-typescript-es6-transform": "^1.0.2",
-    "typescript": "latest"
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "typescript": "latest",
+    "zone.js": "^0.8.11"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
